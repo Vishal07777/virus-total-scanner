@@ -1,68 +1,27 @@
-/* styles.css */
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: Arial, sans-serif;
     background-color: #f3f3f3;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+    padding: 20px;
     color: #333;
 }
 
 .container {
-    background-color: #fff;
-    border-radius: 10px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-    padding: 40px;
-    text-align: center;
     max-width: 800px;
-}
-
-h1 {
-    font-size: 36px;
-    margin-bottom: 20px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 h2 {
-    font-size: 24px;
-    margin-bottom: 20px;
+    color: #333;
 }
 
-input[type="file"] {
-    margin-bottom: 20px;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    background-color: #f2f2f2;
-    cursor: pointer;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+p {
+    margin-bottom: 10px;
 }
 
-input[type="file"]:hover {
-    background-color: #e0e0e0;
-}
-
-input[type="file"]:focus {
-    outline: none;
-}
-
-input[type="submit"] {
-    background-color: #4CAF50;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-}
-
-input[type="submit"]:hover {
-    background-color: #45a049;
-}
-
-/* Table styling if needed in scan.php */
 table {
     width: 100%;
     border-collapse: collapse;
@@ -77,10 +36,12 @@ th, td {
 
 th {
     background-color: #ADD8E6;
+    color: #333;
 }
 
 td {
     background-color: #f9f9f9;
+    color: #555;
 }
 
 .detected {
@@ -94,4 +55,22 @@ td {
 .highlight {
     font-weight: bold;
     color: #ff6600;
+}
+
+input[type="file"] {
+    margin-bottom: 10px;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
 }
