@@ -2,12 +2,12 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Scan Results</title>
+    <title>Scan Result</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<div class="container">
+    <div class="container">
+
     <?php
     define('VT_API_KEY', '27d1f21d50ab35a0382587175fdd76a3e34323a22b9b813d2aeb72a9d250fbc1');
     define('VT_SCAN_URL', 'https://www.virustotal.com/vtapi/v2/file/scan');
